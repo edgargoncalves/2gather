@@ -1,0 +1,31 @@
+{
+  "name": "2gather",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "locomotive": "latest",
+    "bootable": "0.2.x",
+    "bootable-environment": "0.2.x",
+    "express": "3.x.x",
+    "morgan": "*",
+    "method-override": "*",
+    "formidable": "*",
+    "connect-powered-by": "0.1.x",
+    "jade": "latest",
+    "passport": "0.2.x",
+    "passport-local": "1.0.x",
+    "passport-facebook": "1.0.x",
+    "passport-twitter": "1.0.x",
+    "passport-google-oauth": "0.1.x",
+    "connect-flash": "~0.1.1",
+    "locomotive-mongoose": "latest",
+    "mongoose": "*",
+    "mongoose-types": "*",
+    "bcrypt": "*",
+    "connect-mongodb": "latest",
+    "grunt": "^0.4.5"
+  },
+  "scripts": {
+    "start": "lcm server"
+  }
+}
