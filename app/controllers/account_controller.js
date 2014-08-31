@@ -3,6 +3,7 @@ var passport = require('passport');
 var Controller = locomotive.Controller;
 var Account = require('../models/account');
 
+
 var AccountController = new Controller();
 
 AccountController.show = function() {
@@ -38,6 +39,7 @@ AccountController.create = function() {
 };
 
 AccountController.login = function() {
+  this.req.flash('info', 'did you make it?? :)');
   passport.authenticate('local', {
     successRedirect: '/show',
     failureRedirect: '/login' }

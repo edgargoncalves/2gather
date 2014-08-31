@@ -3,13 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "locomotive": "latest",
+    "locomotive": "^0.4.2",
     "bootable": "0.2.x",
     "bootable-environment": "0.2.x",
     "express": "3.x.x",
-    "morgan": "*",
-    "method-override": "*",
-    "formidable": "*",
+    "morgan": "latest",
+    "method-override": "latest",
+    "formidable": "latest",
     "connect-powered-by": "0.1.x",
     "jade": "latest",
     "passport": "0.2.x",
@@ -17,15 +17,22 @@
     "passport-facebook": "1.0.x",
     "passport-twitter": "1.0.x",
     "passport-google-oauth": "0.1.x",
-    "connect-flash": "~0.1.1",
+    "connect-flash": "latest",
     "locomotive-mongoose": "latest",
-    "mongoose": "*",
-    "mongoose-types": "*",
-    "bcrypt": "*",
+    "mongoose": "latest",
+    "mongoose-types": "latest",
+    "bcrypt": "latest",
     "connect-mongodb": "latest",
-    "grunt": "^0.4.5"
+    "grunt": "^0.4.5",
+    "coffee-script": "^1.7.1",
+    "browserify": "^5.10.0",
+    "compass": "^0.1.0",
+    "grunt-sass": "^0.14.0",
+    "debug": "0.7.x",
+    "socket.io": "^1.0.6"
   },
-  "scripts": {
-    "start": "lcm server"
+  "devDependencies": {
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-compass": "^0.9.1"
   }
 }

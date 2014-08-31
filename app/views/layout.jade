@@ -4,13 +4,26 @@ html
     title 2Gather - laboratory.
     // block head
     //script(src="myfile.js")
-    stylesheet(src="/stylesheets/screen.css")
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='description', content='2gather project description')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='apple-mobile-web-app-status-bar-style', content='black-translucent')
+    link(rel='stylesheet', href='/stylesheets/application.css')
+    //stylesheet(src="/stylesheets/application.css")
+  
   body
     header
       h3 2Gather Labs
       hr
     #content
       block content
+    #sidebar
+      .controls
+            input.field(style='width:350px;')
+            input.send(type='button', value='send')
     footer
       hr
       p 2014.
+  
